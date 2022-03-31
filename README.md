@@ -97,7 +97,7 @@ As you work with the Vue CLI, there are a couple of commands you will likely use
 
 ## Project Structure
 
-![Project Structure](project_structure.png)
+![Project Structure](https://github.com/UNC-NCLEX/Vue-3-Tech-Talk---Tutorial-and-Demo/blob/main/src/assets/project_structure.PNG)
 
 The above picture shows an example of the project directory in a newly created Vue 3 project. Below, we will provide a brief description of each file/folder in the directory.
 
@@ -121,7 +121,7 @@ Components are independent, reusable pieces of our Vue application that contain 
 
 ### Structure of a Component
 
-![Component Structure](component_structure.png)
+![Component Structure](https://github.com/UNC-NCLEX/Vue-3-Tech-Talk---Tutorial-and-Demo/blob/main/src/assets/component_structure.PNG)
 
 As shown in the picture above, components contain three sections:
 
