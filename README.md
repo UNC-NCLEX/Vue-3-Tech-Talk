@@ -1,3 +1,5 @@
+![Vue 3](https://github.com/UNC-NCLEX/Vue-3-Tech-Talk---Tutorial-and-Demo/blob/main/src/assets/vue_3.png)
+
 # Introduction to Vue 3 (+ Demo)
 
 This demo provides an introduction to Vue 3 as well as a thorough walkthrough below.
