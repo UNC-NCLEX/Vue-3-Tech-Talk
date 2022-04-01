@@ -643,7 +643,7 @@ import router from './router'
 createApp(App).use(router).mount('#app')
 ```
 
-After doing this, you need to update the template section of App.vue with the <router-view /> tag. The following shows how the updated version of the template section of App.vue should look:
+After doing this, you need to update the template section of App.vue with the `<router-view />` tag. The following shows how the updated version of the template section of App.vue should look:
 
 ```
 <template>
@@ -651,11 +651,11 @@ After doing this, you need to update the template section of App.vue with the <r
 </template>
 ```
 
-When you switch between webpages on your website, the Router will inject the component's template in place of the <router-view /> tag in App.vue, similar to how we embedded App.vue into index.html.
+When you switch between webpages on your website, the Router will inject the component's template in place of the `<router-view />` tag in App.vue, similar to how we embedded App.vue into index.html.
 
 ### Router Links
 
-When creating links from one webpage to another webpage on your website, rather than using an <a href=""> tag, we need to use something called a Router Link. This is what allows Vue's Router to intercept requests to switch webpages. The following is an example of a Router Link you could put in App.vue:
+When creating links from one webpage to another webpage on your website, rather than using an `<a href="">` tag, we need to use something called a Router Link. This is what allows Vue's Router to intercept requests to switch webpages. The following is an example of a Router Link you could put in App.vue:
 
 ```
 <template>
