@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <n-space class="buttons">
+    <n-button><router-link to="/">Home</router-link></n-button>
+    <n-button><router-link to="/PhotoGallery">Photo Gallery</router-link></n-button>
+    <n-button><router-link to="/TwitterFeed">Twitter Feed</router-link></n-button>
+  </n-space>
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { NSpace, NButton } from 'naive-ui'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NSpace,
+    NButton
   }
 }
 </script>
@@ -22,5 +27,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.NButton {
+  margin: 0 auto;
+  display: block;
 }
 </style>

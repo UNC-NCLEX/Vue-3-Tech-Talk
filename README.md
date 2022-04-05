@@ -41,8 +41,9 @@ In this demo, we will go over the following topics:
     - [Dynamic Routing](#Dynamic-Routing)
     - [Redirects](#Redirects)
     - [404 Errors](#404-Errors)
-16) [Want to Learn More?](#Want-to-Learn-More?)
-17) [Thank You!](#Thank-You!)
+16) [Naive UI](#Naive-UI)
+17) [Want to Learn More?](#Want-to-Learn-More?)
+18) [Thank You!](#Thank-You!)
 
 ## What is Vue.js? Why use it?
 
@@ -723,6 +724,12 @@ const routes = [
 ```
 
 The path in this object uses a regular expression that will pick up any webpage that doesn't match one of the routes currently configured in the routes array. It will then route that webpage to a component of our choice (in this example, it's to a component called NotFound).
+
+## Naive UI
+
+Naive UI is a component library for Vue 3 originally written with TypeScript. Naive UI provides a nice set of components (such as buttons, input fields, etc.) that can be used to make your Vue 3 application look/function better.
+
+Since this tutorial focuses specifically on Vue 3, we will not go into detail on how Naive UI works. If you're interested in checking out or learning about Naive UI, [click on this link to visit the Naive UI website](https://www.naiveui.com/en-US/os-theme). The demo uses a number of Naive UI components, such as NButtons and NCards, so the demo provides a peek into the kinds of components Naive UI has to offer.
 
 ## Want to Learn More?
 
