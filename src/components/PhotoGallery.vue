@@ -1,7 +1,7 @@
 <template>
     <h1>Photo Gallery</h1>
-    <div v-for="image in images" :key="image.id" class="image-grid">
-        <img v-bind:src="image.download_url" class="image">
+    <div class="image-grid">
+        <img v-for="image in images" :key="image.id" :src="image.download_url" class="image" />
     </div>
 </template>
 
@@ -31,8 +31,17 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.image {
-    height: 25%;
-    width: 25%;
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+
+.image {
+    height: 200px;
+    width: 300px;
+    padding: 3px;
+}
+
 </style>

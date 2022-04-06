@@ -1,6 +1,6 @@
 <template>
     <h1>Twitter Feed</h1>
-    <n-space horizontal>
+    <n-space vertical class="tweetText">
         <n-input
             v-model:value="tweetText"
             type="textarea"
@@ -8,7 +8,7 @@
         />
         <n-button strong secondary @click="postTweet">Tweet</n-button>
     </n-space>
-    <div v-for="tweet in tweets" :key='tweet.id'>
+    <div v-for="tweet in tweets" :key='tweet.id' class="tweet">
         <n-card :title="tweet.timestamp" closable @close="deleteTweet(tweet.id)">
             {{ tweet.tweetText }}
         </n-card>
@@ -58,5 +58,12 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.tweetText {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.tweet {
+    padding: 20px;
+}
 </style>

@@ -1,20 +1,20 @@
 <template>
-  <n-space class="buttons">
+  <n-button-group class="buttons">
     <n-button><router-link to="/">Home</router-link></n-button>
     <n-button><router-link to="/PhotoGallery">Photo Gallery</router-link></n-button>
     <n-button><router-link to="/TwitterFeed">Twitter Feed</router-link></n-button>
-  </n-space>
+  </n-button-group>
   <router-view />
 </template>
 
 <script>
-import { NSpace, NButton } from 'naive-ui'
+import { NButton, NButtonGroup } from 'naive-ui'
 
 export default {
   name: 'App',
   components: {
-    NSpace,
-    NButton
+    NButton,
+    NButtonGroup
   }
 }
 </script>
@@ -26,11 +26,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
-.NButton {
-  margin: 0 auto;
-  display: block;
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 </style>
