@@ -1,5 +1,5 @@
 <template>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.png" class="logo">
     <h1>Welcome to the Vue 3 Demo!</h1>
     <p>This demo intends to demonstrate the concepts discussed in the corresponding Vue 3 tutorial
     (refer to the README). On this demo website, you will be able to explore two webpages:</p>
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-
+.logo {
+  margin-top: 30px;
+}
 </style>
